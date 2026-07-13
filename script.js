@@ -1,17 +1,17 @@
 
-const msg=`Hey Shravani,
+const msg=`Hello Shravaniii,
 
-I know it was only a few minutes, but I understand that it still made you feel ignored.
+I know that i ignored you and i should not have done thaat.
 
 I'm really sorry.
 
-You've always deserved better communication from me, and I regret making you feel otherwise.
+You've always deserved better communication from me, and I regret making you feel ignored.
 
-I don't expect this little website to fix everything. I just wanted to show that I genuinely care about our friendship and wanted to put in a little extra effort instead of sending a simple 'sorry'.
+Thank you for reading this. I'm genuinely sorry for hurting you, You deserved better from me and i hope that someday i can prove that i've learned from this.
 
-If you're willing, I'd really like the chance to make things right.
+If you're willing, i'd really like the chance to make things right.
 
-— Rajan 💙`;
+— Razan 😝😝`;
 let i=0,out=document.getElementById("text");
 (function type(){if(i<msg.length){out.textContent+=msg[i++];setTimeout(type,28);}})();
 document.getElementById("btn").onclick=()=>{
