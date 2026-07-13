@@ -1,0 +1,17 @@
+
+*{box-sizing:border-box}
+body{
+margin:0;font-family:Verdana,sans-serif;height:100vh;
+display:flex;justify-content:center;align-items:center;
+background:linear-gradient(180deg,#163b8c,#0d1d4f);overflow:hidden;color:white}
+.stars{position:fixed;inset:0;background-image:radial-gradient(white 1px,transparent 1px);
+background-size:60px 60px;opacity:.25;animation:twinkle 5s ease-in-out infinite alternate}
+@keyframes twinkle{to{opacity:.45}}
+.card{width:min(90%,650px);background:rgba(255,255,255,.12);padding:30px;border-radius:18px;
+backdrop-filter:blur(8px);box-shadow:0 8px 30px rgba(0,0,0,.25)}
+h1{text-align:center}
+#text{white-space:pre-wrap;line-height:1.6;min-height:220px}
+button{display:block;margin:20px auto;padding:12px 24px;border:none;border-radius:30px;background:#67a8ff;color:white;cursor:pointer}
+.ps{text-align:center;font-size:.9em;opacity:.8}
+.heart{position:fixed;bottom:-20px;font-size:22px;animation:up 4s linear forwards}
+@keyframes up{to{transform:translateY(-110vh);opacity:0}}
